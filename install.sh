@@ -39,4 +39,4 @@ packages=(
 )
 
 pacman -Syuu
-pacman -S --needed $(packages)
+pacman -S --needed $packages
