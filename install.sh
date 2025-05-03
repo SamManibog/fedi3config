@@ -1,6 +1,5 @@
 #install packages
 packages=(
-    #hyprland DE
     hyprland
     hyprpaper
     hyprpicker
@@ -9,8 +8,6 @@ packages=(
     hyprpolkitagent
     hyprsysteminfo
     sddm
-
-    #waybar
     waybar
     wireplumber
     libgtop
@@ -24,18 +21,13 @@ packages=(
     upower
     power-profiles-daemon
     wf-recorder
-
-    #applications
     neovim
     kitty
     firefox
-
-    #file manager
     thunar
     thunar-archive-plugin
     thunar-media-tags-plugin
     thunar-volman
-
 )
 
 pacman -Syuu
