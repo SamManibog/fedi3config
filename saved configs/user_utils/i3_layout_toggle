@@ -1,0 +1,12 @@
+touch /tmp/useri3_layout_mode.txt
+contents=$(head -c 1 /tmp/useri3_layout_mode.txt)
+if [ "$contents" = "0" ]; then
+	echo "1" > /tmp/useri3_layout_mode.txt
+	i3 layout toggle split
+elif [ "$contents" = "1" ]; then 
+	echo "2" > /tmp/useri3_layout_mode.txt
+	i3 layout toggle split
+else
+	echo "0" > /tmp/useri3_layout_mode.txt
+	i3 layout tabbed 
+fi
