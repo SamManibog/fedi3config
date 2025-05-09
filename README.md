@@ -1,2 +1,2 @@
-# Fedora i3 Configuration
-wip
+# Dotfiles
+still deciding a distro after a long ahh time
